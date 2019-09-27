@@ -12,5 +12,9 @@ class ViewController: UIViewController {
     @IBAction func buttonClicked(_ sender: UIButton) {
         print("You aint not finished!")
     }
+    @IBAction func textChanged(_ sender: UITextField) {
+        if let text = sender.text {
+            print(text)
+        }
+    }
 }
-

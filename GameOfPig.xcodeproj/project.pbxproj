@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F68A6FA233BAD8C0070DA98 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68A6F9233BAD8C0070DA98 /* File.swift */; };
+		6F68A6FD233BB97E0070DA98 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68A6FC233BB97E0070DA98 /* Settings.swift */; };
+		6F68A6FF233BBACA0070DA98 /* Natural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68A6FE233BBACA0070DA98 /* Natural.swift */; };
 		6FA94E24233916CD0051448D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA94E23233916CD0051448D /* AppDelegate.swift */; };
 		6FA94E26233916CD0051448D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA94E25233916CD0051448D /* ViewController.swift */; };
 		6FA94E29233916CD0051448D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA94E27233916CD0051448D /* Main.storyboard */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F68A6F9233BAD8C0070DA98 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		6F68A6FC233BB97E0070DA98 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		6F68A6FE233BBACA0070DA98 /* Natural.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Natural.swift; sourceTree = "<group>"; };
 		6FA94E20233916CD0051448D /* GameOfPig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfPig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA94E23233916CD0051448D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FA94E25233916CD0051448D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +58,11 @@
 		6FA94E22233916CD0051448D /* GameOfPig */ = {
 			isa = PBXGroup;
 			children = (
+				6F68A6FE233BBACA0070DA98 /* Natural.swift */,
+				6F68A6FC233BB97E0070DA98 /* Settings.swift */,
 				6FA94E23233916CD0051448D /* AppDelegate.swift */,
 				6FA94E25233916CD0051448D /* ViewController.swift */,
 				6FA94E27233916CD0051448D /* Main.storyboard */,
-				6F68A6F9233BAD8C0070DA98 /* File.swift */,
 				6FA94E2A233916CD0051448D /* Assets.xcassets */,
 				6FA94E2C233916CD0051448D /* LaunchScreen.storyboard */,
 				6FA94E2F233916CD0051448D /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F68A6FD233BB97E0070DA98 /* Settings.swift in Sources */,
+				6F68A6FF233BBACA0070DA98 /* Natural.swift in Sources */,
 				6FA94E26233916CD0051448D /* ViewController.swift in Sources */,
-				6F68A6FA233BAD8C0070DA98 /* File.swift in Sources */,
 				6FA94E24233916CD0051448D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
