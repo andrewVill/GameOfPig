@@ -32,9 +32,19 @@ func rollDice() -> Int{
     return random
 }
 //is the loop for the turn
-func turn(player: Int){
-    var addedScore = 0
+func turn(player: Int, bigLoop: Int){
     var currentRoll = rollDice
+    var addedScore = currentRoll
+    //var scoreBeforeAdded = playerScores[bigLoop]
+    //var plausibleTotal = (playerScores[bigLoop])+(addedScore)
+    print("you rolled a \(String(describing: currentRoll))")
+    //insert some way to find a boolean
+    var turn = true
+    var i = 0
+    //while (turn && players >= i){
+        
+    //}
+
 }
 
 // This allows the game to run. You would call this in View Controller
