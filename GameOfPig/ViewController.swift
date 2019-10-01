@@ -18,8 +18,11 @@ class ViewController: UIViewController {
         }
     }
     
-    //@IBAction func Dice(_ sender: UITextField) {
-       // Natural().Natural().dieSides = (UITextField)
-     //   print("got Dice num")
-   // }
+    @IBAction func Play(_ sender: Any) {
+        
+    }
+    @IBAction func Players(_ sender: Any) {
+        
+    }
+    
 }
