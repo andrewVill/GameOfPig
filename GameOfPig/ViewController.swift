@@ -17,4 +17,9 @@ class ViewController: UIViewController {
             print(text)
         }
     }
+    
+    //@IBAction func Dice(_ sender: UITextField) {
+       // Natural().Natural().dieSides = (UITextField)
+     //   print("got Dice num")
+   // }
 }
