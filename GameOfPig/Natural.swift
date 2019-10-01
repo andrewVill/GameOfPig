@@ -14,7 +14,6 @@ var topPlayerScore = 0
 // this is an instalizer
 struct Natural{
     let players = 0
-    let dieSides = 0
 //  let numOfDie = 0
 }
 
@@ -27,15 +26,15 @@ func setPlayerScore(p:Int, score:Int){
     playerScores[p] += score
 }
 //returns a value that represents the random rolling of the die
-func rollDice(sides: Int) -> Int{
+func rollDice() -> Int{
     //class GKRandomDistribution : NSObject
-    //var random = convenience init(forDieWithSideCount sideCount: sides)
-    return 0
+    let random = Int.random(in: 1...6)
+    return random
 }
 //is the loop for the turn
 func turn(player: Int){
     var addedScore = 0
-    //var currentRoll = rollDice(sides: Natural.Natural.dieSides)
+    var currentRoll = rollDice
 }
 
 // This allows the game to run. You would call this in View Controller
