@@ -58,7 +58,7 @@ struct Natural{
         let random = Int.random(in: 1...6)
         return random
     }
-}*/
+}
 
 
 //sets the score after turn() has ended
@@ -79,4 +79,4 @@ func GOPPlayer(player: Int){
 }
 
 
-
+*/
