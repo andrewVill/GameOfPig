@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         }
     }
     struct Natural{
+        
         let players = 2
         var playerScores = [ 0, 0 ]
         //  let numOfDie = 0
@@ -62,6 +63,7 @@ class ViewController: UIViewController {
             //class GKRandomDistribution : NSObject
             let random = Int.random(in: 1...6)
             return random
+            //inside struct
         }
     }
 
