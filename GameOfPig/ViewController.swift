@@ -9,8 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var Player1: UILabel?
+    
+    func PlayerText(score:Int, player: Int){
+       // "Player 1: \(playerScore[player])"
+    }
+    
+    
     @IBAction func buttonClicked(_ sender: UIButton) {
-        print("You aint not finished!")
+        print("skrt")
     }
     @IBAction func textChanged(_ sender: UITextField) {
         if let text = sender.text {
@@ -18,11 +25,8 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func Play(_ sender: Any) {
-        
-    }
-    @IBAction func Players(_ sender: Any) {
-        
-    }
     
 }
+
+    
+
