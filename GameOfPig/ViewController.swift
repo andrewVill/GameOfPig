@@ -40,11 +40,12 @@ class ViewController: UIViewController {
                 //var scoreBeforeAdded = playerScores[bigLoop]
                 //var plausibleTotal = (playerScores[bigLoop])+(addedScore)
                 print("you rolled a \(String(describing: currentRoll))")
-                //insert some way to find a boolean
                 if(currentRoll == 1){
                     addedScore = 0
                     break
                 }
+                
+                //insert some way to find a boolean (button ask if wanna roll agian that sets roll 
                 var roll = true
                 while (roll){
                     currentRoll = rollDice()
